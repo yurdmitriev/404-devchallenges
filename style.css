@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: clamp(0.75rem, 0.6rem + 0.4444vw, 1rem);
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+header {
+    padding-top: 1em;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+main {
+    margin: 65px 0 115px;
+}
+
+main .wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+main picture {
+    margin: 0 auto;
+    min-width: 280px;
+}
+
+picture img {
+    width: 100%;
+    height: 100%;
+    max-width: 540px;
+    object-fit: contain;
+    object-position: center;
+}
+
+main h2 {
+    font-size: 4em;
+    margin-top: 0;
+}
+
+main section {
+    flex: 0 1 600px;
+}
+
+main a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    font-weight: 700;
+    padding: 1.5em 2.5em;
+    display: inline-block;
+    margin-top: 4em;
+}
+
+main section > p {
+    font-size: 1.5em;
+    max-width: 380px;
+    color: #4f4f4f;
+} 
+
+footer {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #bdbdbd;
+    font-size: .9em;
+}
+
+footer a {
+    color: inherit;
+}
